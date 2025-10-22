@@ -1,5 +1,5 @@
 [project]
-name = "ff-bot"
+name = "ff_bot"
 version = "0.1.0"
 description = ""
 authors = [
@@ -19,7 +19,10 @@ name = "ff-bot"
 version = "0.1.0"
 description = ""
 authors = ["Nathaniel Rodriguez"]
-packages = [{ include = "ff-bot", from = "src" }]
+packages = [{ include = "ff_bot", from = "src" }]
+
+[tool.poetry.scripts]
+deploy = "ff_bot.main:main"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.2"
