@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-name = "ff-bot"
+name = "ff_bot"
 version = "0.1.0"
 description = ""
 authors = ["Nathaniel Rodriguez"]
